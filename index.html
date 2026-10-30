@@ -1,1 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Elmech Center – Privacy Policy | ELMECH SYSTEMS G.P.</title>
+
+    <meta
+        name="description"
+        content="Privacy Policy for the Elmech Center iOS application by ELMECH SYSTEMS G.P."
+    >
+
+    <style>
+        :root {
+            --background: #f5f5f7;
+            --surface: #ffffff;
+            --text: #1d1d1f;
+            --secondary: #6e6e73;
+            --border: #d2d2d7;
+            --accent: #a85c2a;
+            --accent-soft: #f7eee8;
+            --max-width: 900px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            background: var(--background);
+            color: var(--text);
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "SF Pro Text",
+                "SF Pro Display",
+                "Helvetica Neue",
+                Arial,
+                sans-serif;
+            line-height: 1.65;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.92);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .header-inner {
+            width: min(calc(100% - 40px), var(--max-width));
+            margin: 0 auto;
+            padding: 22px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        .brand-mark {
+            width: 38px;
+            height: 38px;
+            border-radius: 10px;
+            background: var(--text);
+            color: white;
+            display: grid;
+            place-items: center;
+            font-size: 23px;
+            font-weight: 800;
+        }
+
+        .brand-mark span {
+            color: #c8753d;
+        }
+
+        .app-name {
+            color: var(--secondary);
+            font-size: 14px;
+            white-space: nowrap;
+        }
+
+        main {
+            width: min(calc(100% - 40px), var(--max-width));
+            margin: 55px auto 80px;
+        }
+
+        .hero {
+            margin-bottom: 32px;
+        }
+
+        .eyebrow {
+            display: inline-block;
+            margin-bottom: 12px;
+            color: var(--accent);
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+
+        h1 {
+            margin: 0 0 14px;
+            font-size: clamp(38px, 6vw, 58px);
+            line-height: 1.05;
+            letter-spacing: -0.045em;
+        }
+
+        .intro {
+            max-width: 720px;
+            margin: 0;
+            color: var(--secondary);
+            font-size: 19px;
+        }
+
+        .updated {
+            margin-top: 20px;
+            color: var(--secondary);
+            font-size: 14px;
+        }
+
+        .notice {
+            margin: 32px 0;
+            padding: 22px 24px;
+            background: var(--accent-soft);
+            border: 1px solid #ead4c5;
+            border-radius: 16px;
+        }
+
+        .notice strong {
+            color: var(--accent);
+        }
+
+        article {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 22px;
+            padding: clamp(25px, 5vw, 50px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.035);
+        }
+
+        section + section {
+            margin-top: 42px;
+            padding-top: 38px;
+            border-top: 1px solid #e5e5e7;
+        }
+
+        h2 {
+            margin: 0 0 16px;
+            font-size: 25px;
+            line-height: 1.2;
+            letter-spacing: -0.025em;
+        }
+
+        p {
+            margin: 0 0 16px;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        ul {
+            margin: 14px 0 0;
+            padding-left: 24px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-card {
+            margin-top: 20px;
+            padding: 22px;
+            background: var(--background);
+            border-radius: 14px;
+        }
+
+        .contact-card p {
+            margin: 3px 0;
+        }
+
+        footer {
+            width: min(calc(100% - 40px), var(--max-width));
+            margin: 0 auto;
+            padding: 0 0 45px;
+            color: var(--secondary);
+            font-size: 13px;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            .header-inner {
+                padding: 17px 0;
+            }
+
+            .app-name {
+                display: none;
+            }
+
+            main {
+                margin-top: 38px;
+            }
+
+            article {
+                border-radius: 18px;
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background: #111113;
+                --surface: #1c1c1e;
+                --text: #f5f5f7;
+                --secondary: #a1a1a6;
+                --border: #38383a;
+                --accent: #d8844c;
+                --accent-soft: #2a211c;
+            }
+
+            .header {
+                background: rgba(28, 28, 30, 0.94);
+            }
+
+            section + section {
+                border-color: #38383a;
+            }
+
+            .notice {
+                border-color: #533725;
+            }
+
+            article {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="header">
+    <div class="header-inner">
+        <div class="brand">
+            <div class="brand-mark">e<span>•</span></div>
+            <div>ELMECH SYSTEMS G.P.</div>
+        </div>
+
+        <div class="app-name">Elmech Center</div>
+    </div>
+</header>
+
+<main>
+
+    <div class="hero">
+        <div class="eyebrow">Elmech Center</div>
+
+        <h1>Privacy Policy</h1>
+
+        <p class="intro">
+            This Privacy Policy describes how ELMECH SYSTEMS G.P. processes
+            information in connection with the Elmech Center mobile application.
+        </p>
+
+        <p class="updated">
+            Last updated: October 30, 2026
+        </p>
+    </div>
+
+    <div class="notice">
+        <strong>Internal business application.</strong>
+        Elmech Center is designed for authorized personnel and other authorized
+        users of ELMECH SYSTEMS G.P. and is not intended for general consumer use.
+    </div>
+
+    <article>
+
+        <section>
+            <h2>1. Purpose of Elmech Center</h2>
+
+            <p>
+                ELMECH SYSTEMS G.P. (“ELMECH SYSTEMS”, “we”, “us”, or “our”)
+                provides the Elmech Center mobile application to support authorized
+                company operations.
+            </p>
+
+            <p>
+                Elmech Center provides authorized users with secure mobile access
+                to business systems and workflows including customer relationship
+                management (CRM), customers, products, service management,
+                equipment, maintenance contracts, inspections, activities,
+                notifications, and related company operations.
+            </p>
+
+            <p>
+                Access to production functionality is restricted to authorized
+                users and authorized devices.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>2. Information Processed by the Application</h2>
+
+            <p>
+                Depending on the user's role and the functionality being used,
+                Elmech Center may process information including:
+            </p>
+
+            <ul>
+                <li>
+                    User identity and account information, such as a user's name,
+                    account identity, and assigned company role.
+                </li>
+
+                <li>
+                    Business contact information contained within authorized
+                    company records.
+                </li>
+
+                <li>
+                    Customer, CRM, product, equipment, installation,
+                    maintenance-contract, inspection, service, and activity
+                    information required for company operations.
+                </li>
+
+                <li>
+                    Content submitted through the application, including notes,
+                    photographs, signatures, inspection information, attachments,
+                    and other business records.
+                </li>
+
+                <li>
+                    Device and installation identifiers used to identify and
+                    authorize an installation of Elmech Center.
+                </li>
+
+                <li>
+                    Apple Push Notification service (APNs) device tokens and
+                    related technical information required to deliver application
+                    notifications.
+                </li>
+
+                <li>
+                    Application version, operating-system version, device model,
+                    language, and similar technical information required for
+                    application functionality, compatibility, security, and
+                    support.
+                </li>
+            </ul>
+
+            <p>
+                Elmech Center processes this information only as required to
+                provide its business functionality, maintain security, and
+                support authorized company operations.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>3. Device Enrollment and Secure Access</h2>
+
+            <p>
+                Production access to Elmech Center is protected by a
+                company-managed device enrollment process.
+            </p>
+
+            <p>
+                The application may generate and store technical identifiers
+                necessary to recognize an authorized installation and establish
+                secure access to ELMECH SYSTEMS infrastructure.
+            </p>
+
+            <p>
+                Elmech Center includes an integrated secure networking mechanism
+                for accessing protected company services. This connection is used
+                for application functionality and security and is not used for
+                advertising, tracking, or profiling.
+            </p>
+
+            <p>
+                Authentication information and security credentials required by
+                the application are protected using security mechanisms provided
+                by iOS, including the Apple Keychain where applicable.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>4. Push Notifications</h2>
+
+            <p>
+                Elmech Center uses Apple Push Notification service (APNs) to
+                provide authorized users with business-related notifications.
+            </p>
+
+            <p>
+                For this purpose, the application registers an APNs device token
+                together with information required to associate the installation
+                with the appropriate authorized user or device.
+            </p>
+
+            <p>
+                Push-notification information is used only to provide and manage
+                Elmech Center notifications.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>5. Camera, Photos, Files, and Face ID</h2>
+
+            <p>
+                Certain Elmech Center functionality may allow or require
+                authorized users to:
+            </p>
+
+            <ul>
+                <li>
+                    Use the camera for supported business workflows, including
+                    barcode scanning and capturing relevant business images.
+                </li>
+
+                <li>
+                    Select photographs or files for authorized business records.
+                </li>
+
+                <li>
+                    Provide signatures where required by a service or inspection
+                    workflow.
+                </li>
+
+                <li>
+                    Use Face ID to facilitate secure access to the application.
+                </li>
+            </ul>
+
+            <p>
+                Access to these device capabilities is subject to the permissions
+                and controls provided by iOS.
+            </p>
+
+            <p>
+                Elmech Center does not receive or store the user's Face ID
+                biometric data. Face ID authentication is performed by Apple's
+                operating system.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>6. How Information Is Used</h2>
+
+            <p>
+                Information processed through Elmech Center is used for purposes
+                including:
+            </p>
+
+            <ul>
+                <li>Providing application functionality.</li>
+                <li>Authenticating users and authorizing devices.</li>
+                <li>Providing CRM and service-management functionality.</li>
+                <li>
+                    Managing equipment, installations, contracts, inspections,
+                    activities, and related business records.
+                </li>
+                <li>Delivering business notifications.</li>
+                <li>Maintaining application and information security.</li>
+                <li>Diagnosing technical issues and supporting authorized users.</li>
+                <li>
+                    Maintaining the integrity and availability of ELMECH SYSTEMS
+                    business systems.
+                </li>
+            </ul>
+
+            <p>
+                Information collected through Elmech Center is not used for
+                third-party advertising or advertising measurement.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>7. Tracking and Advertising</h2>
+
+            <p>
+                Elmech Center does not use personal information for cross-app or
+                cross-website advertising tracking.
+            </p>
+
+            <p>
+                Elmech Center does not display third-party advertising.
+            </p>
+
+            <p>
+                ELMECH SYSTEMS does not sell information collected through
+                Elmech Center to data brokers or advertisers.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>8. App Demo</h2>
+
+            <p>
+                Elmech Center contains an <strong>App Demo</strong> environment
+                intended to allow Apple App Review and other authorized
+                demonstrations of the application's functionality without
+                providing access to confidential company systems.
+            </p>
+
+            <p>
+                App Demo uses fictional demonstration information and does not
+                require access to ELMECH SYSTEMS production infrastructure.
+            </p>
+
+            <p>
+                App Demo is not intended to expose production company or customer
+                information.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>9. Data Sharing and Service Providers</h2>
+
+            <p>
+                Information processed through Elmech Center may be transmitted
+                to systems and service providers necessary to provide the
+                application's functionality, secure communications,
+                notifications, hosting, or related technical services.
+            </p>
+
+            <p>
+                Such processing is limited to what is necessary to operate and
+                secure the application and ELMECH SYSTEMS business
+                infrastructure.
+            </p>
+
+            <p>
+                ELMECH SYSTEMS does not share information collected through
+                Elmech Center with third parties for their independent
+                advertising or marketing purposes.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>10. Data Retention</h2>
+
+            <p>
+                Business information accessed or submitted through Elmech Center
+                is retained according to ELMECH SYSTEMS operational,
+                contractual, legal, security, and record-retention requirements.
+            </p>
+
+            <p>
+                Technical device-registration information may be retained for as
+                long as necessary to maintain or audit authorized application
+                access and may be deactivated or removed when access is revoked
+                or no longer required.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>11. Security</h2>
+
+            <p>
+                ELMECH SYSTEMS uses administrative and technical safeguards
+                designed to protect information processed through Elmech Center.
+            </p>
+
+            <p>
+                These safeguards include authenticated access, device
+                authorization, encrypted communications, secure credential
+                storage, restricted access to internal systems, and the ability
+                to revoke authorized devices.
+            </p>
+
+            <p>
+                No electronic system can guarantee absolute security, but
+                ELMECH SYSTEMS takes reasonable measures to protect information
+                processed by the application.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>12. User Rights and Requests</h2>
+
+            <p>
+                Authorized users may contact ELMECH SYSTEMS regarding questions
+                or requests concerning personal information processed through
+                Elmech Center.
+            </p>
+
+            <p>
+                Where applicable, requests concerning access, correction,
+                deletion, restriction, or other rights relating to personal data
+                will be handled in accordance with applicable data-protection
+                legislation, including the General Data Protection Regulation
+                (GDPR).
+            </p>
+
+            <p>
+                Certain information may need to be retained where required for
+                legitimate business, contractual, security, or legal purposes.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>13. Changes to This Privacy Policy</h2>
+
+            <p>
+                This Privacy Policy may be updated when Elmech Center's
+                functionality, data-processing practices, or applicable legal
+                requirements change.
+            </p>
+
+            <p>
+                The current version will remain publicly available at this
+                address.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>14. Contact</h2>
+
+            <p>
+                For questions regarding Elmech Center or this Privacy Policy,
+                please contact:
+            </p>
+
+            <div class="contact-card">
+                <p><strong>ELMECH SYSTEMS G.P.</strong></p>
+                <p>L. Marathonos 163</p>
+                <p>Pikermi 19009</p>
+                <p>Greece</p>
+
+                <p style="margin-top: 14px;">
+                    Email:
+                    <a href="mailto:atyraskis@elmechsystems.gr">
+                        atyraskis@elmechsystems.gr
+                    </a>
+                </p>
+            </div>
+        </section>
+
+    </article>
+</main>
+
+<footer>
+    © 2026 ELMECH SYSTEMS G.P. · Elmech Center
+</footer>
+
+</body>
+</html>
